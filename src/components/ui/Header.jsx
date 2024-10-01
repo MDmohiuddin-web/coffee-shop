@@ -85,7 +85,7 @@ const Header = () => {
               width={80}
               alt="Logo"
               src={logo}
-              className="h-8 w-auto"
+              className="h-8 w-auto "
             />
           </Link>
         </div>

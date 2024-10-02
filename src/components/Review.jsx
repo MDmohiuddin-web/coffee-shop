@@ -7,7 +7,7 @@ import man from "/public/man.png";
 
 const Review = () => {
   return (
-    <div className="w-4/5 mx-auto flex flex-wrap gap-5 justify-center items-center py-5">
+    <div className="w-4/5 mx-auto flex flex-wrap gap-5 justify-center items-center py-10">
       {/* card */}
       <div className="max-w-md mx-auto bg-white rounded-md shadow-md overflow-hidden w-[305px]">
         <div className="">

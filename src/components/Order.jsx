@@ -4,7 +4,7 @@ import coffeeImg from "/public/coffee-mid.png";
 import { Button } from "./ui/button";
 
 const Order = () => {
-  return (
+  return (<div className="bg-gray-100">
     <div className="w-4/5 mx-auto  flex-wrap gap-5 flex justify-around py-10">
       <div className="md:w-[48%] items-center">
         <Image alt="f" src={coffeeImg} width={500} height={500}></Image>
@@ -26,7 +26,7 @@ const Order = () => {
           </Button>
         </div>
       </div>
-    </div>
+    </div></div>
   );
 };
 

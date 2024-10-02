@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 import coffeeImg from "/public/coffee-banner.png";
 
 const Instant = () => {
-  return (
+  return (<div className="bg-gray-100">
     <div className="w-4/5 mx-auto flex flex-wrap justify-around gap-5 py-20 md:h-[650px]">
       <div className="md:w-[48%] text-left space-y-3 flex justify-center flex-col mx-auto">
         <h2 className="text-2xl md:text-6xl font-bold">
@@ -40,7 +40,7 @@ const Instant = () => {
           className="absolute rounded-xl"
         />
       </div>
-    </div>
+    </div></div>
   );
 };
 

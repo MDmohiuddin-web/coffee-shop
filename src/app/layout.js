@@ -2,6 +2,7 @@ import { Jost } from "next/font/google";
 
 import "./globals.css";
 import Footer from "@/components/Footer";
+import Header from "@/components/ui/Header";
 
 const jost = Jost({ subsets: ["latin"] });
 
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${jost}  antialiased capitalize`}
       >
+        <Header></Header>
         {children}
         <Footer></Footer>
       </body>

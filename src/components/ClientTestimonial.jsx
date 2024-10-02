@@ -55,7 +55,7 @@ const people = [
 
 const ClientTestimonial = () => {
   return (
-    <div className="md:w-[30%] mx-auto my-5 text-center">
+    <div className="md:w-[30%] mx-auto my-5 text-center py-5">
       <h2 className="text-2xl font-bold">Best Selling Coffee</h2>
       <p className="py-2 text-sm">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam facere

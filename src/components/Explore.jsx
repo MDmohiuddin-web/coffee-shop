@@ -28,7 +28,7 @@ const Explore = () => {
       </div>
 
       <div className="w-4/5 mx-auto flex flex-wrap gap-5 justify-center items-center">
-        <Card className="text-center w-[300px]">
+        <Card className="text-center  w-[300px]  md:  ">
           <CardHeader>
             <CardTitle className="text-2xl">Our Catering</CardTitle>
             <CardDescription>
@@ -48,7 +48,7 @@ const Explore = () => {
           </CardFooter>
         </Card>
         {/* card 2 */}
-        <Card className="text-center w-[300px]">
+        <Card className="text-center  w-[300px] md:  ">
           <CardHeader>
             <CardTitle className="text-2xl">the food</CardTitle>
             <CardDescription>
@@ -68,7 +68,7 @@ const Explore = () => {
           </CardFooter>
         </Card>
         {/* card 3 */}
-        <Card className="text-center w-[300px]">
+        <Card className="text-center  w-[300px] md:  ">
           <CardHeader>
             <CardTitle className="text-2xl">teh gelato</CardTitle>
             <CardDescription>

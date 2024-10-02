@@ -9,15 +9,21 @@ const Order = () => {
       <div className="md:w-[48%] items-center">
         <Image alt="f" src={coffeeImg} width={500} height={500}></Image>
       </div>
-      <div className="md:w-[48%] relative text-left space-y-3  flex justify-center items-center flex-col  ">
-        <h2 className="text-7xl">Order Your Favorite Coffee</h2>
+      <div className="md:w-[48%]  text-left space-y-3  flex justify-center  flex-col  ">
+        <h2 className="text-2xl md:text-7xl">Order Your Favorite Coffee</h2>
         <p className="">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam asperiores aliquid tempore tenetur? Quibusdam non fugit aliquam reprehenderit assumenda illum?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+          asperiores aliquid tempore tenetur? Quibusdam non fugit aliquam
+          reprehenderit assumenda illum?
         </p>
-        <div className="text-left  absolute left-0 bottom-6">
-        <Button variant="outline" className="capitalize bg-black text-white text-left">
-         order now
-        </Button>
+
+        <div>
+          <Button
+            variant="outline"
+            className="capitalize bg-black text-white text-left"
+          >
+            order now
+          </Button>
         </div>
       </div>
     </div>

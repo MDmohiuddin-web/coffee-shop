@@ -9,7 +9,7 @@ import {
 import Image from "next/image";
 
 
-import imgLogo from "/public/cafe.png";
+// import imgLogo from "/public/cafe.png";
 import imgHero from "/public/hero1.png";
 import { Button } from "@/components/ui/button";
 
@@ -26,12 +26,12 @@ const Banner = () => {
                   alowishus delicious coffee
                 </h1>
 
-                <Image
+                {/* <Image
                   src={imgLogo}
                   alt=""
                   width={80}
                   className="absolute bottom-2 md:left-80   "
-                />
+                /> */}
               </div>
               <p className="text-sm py-5 ">
                 a drink from the my alowishus bottled brews range or one oƒ our
@@ -52,12 +52,12 @@ const Banner = () => {
 
             <div className="md:w-1/2 relative">
               <Image src={imgHero} alt="" width={400} className="" />
-              <Image
+              {/* <Image
                   src={imgLogo}
                   alt=""
                   width={80}
                   className="absolute top-0 md:left-80   "
-                />
+                /> */}
             </div>
           </CarouselItem>
           <CarouselItem className="flex justify-between gap-5">
@@ -68,12 +68,12 @@ const Banner = () => {
                   alowishus delicious coffee
                 </h1>
 
-                <Image
+                {/* <Image
                   src={imgLogo}
                   alt=""
                   width={80}
                   className="absolute bottom-2 md:left-80   "
-                />
+                /> */}
               </div>
               <p className="text-sm py-5 ">
                 a drink from the my alowishus bottled brews range or one oƒ our
@@ -94,12 +94,12 @@ const Banner = () => {
 
             <div className="md:w-1/2 relative">
               <Image src={imgHero} alt="" width={400} className="" />
-              <Image
+              {/* <Image
                   src={imgLogo}
                   alt=""
                   width={80}
                   className="absolute top-0 md:left-80   "
-                />
+                /> */}
             </div>
           </CarouselItem>
           <CarouselItem className="flex justify-between gap-5">
@@ -110,12 +110,12 @@ const Banner = () => {
                   alowishus delicious coffee
                 </h1>
 
-                <Image
+                {/* <Image
                   src={imgLogo}
                   alt=""
                   width={80}
                   className="absolute bottom-2 md:left-80   "
-                />
+                /> */}
               </div>
               <p className="text-sm py-5 ">
                 a drink from the my alowishus bottled brews range or one oƒ our
@@ -136,12 +136,12 @@ const Banner = () => {
 
             <div className="md:w-1/2 relative">
               <Image src={imgHero} alt="" width={400} className="" />
-              <Image
+              {/* <Image
                   src={imgLogo}
                   alt=""
                   width={80}
                   className="absolute top-0 md:left-80   "
-                />
+                /> */}
             </div>
           </CarouselItem>
           

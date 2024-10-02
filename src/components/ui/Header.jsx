@@ -134,13 +134,23 @@ const Header = () => {
                   Alowishus Catering
                 </Link>
               </div>
-              <div className="py-6">
+              <div className=" flex gap-5 items-center border-none">
                 <Link
                   href="/"
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  className="text-sm font-semibold leading-6 text-white bg-black p-2 rounded-full"
+                >
+                  
+                  <ShoppingBagIcon
+                    width={20}
+                    className="hover:cursor-pointer"
+                  />
+                </Link>
+                <Button
+                  variant="outline"
+                  className="capitalize bg-black text-white"
                 >
                   Buy Gift Vouchers
-                </Link>
+                </Button>
               </div>
             </div>
           </div>

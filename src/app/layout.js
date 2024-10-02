@@ -14,6 +14,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (  
     <html lang="en">
+      <head>
+        <link rel="icon" href="/public/alowishus-coffee.png" sizes="any" />
+      </head>
+      
       <body
         className={`${jost}  antialiased capitalize`}
       >

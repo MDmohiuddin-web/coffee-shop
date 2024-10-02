@@ -2,11 +2,8 @@
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import logo from "/public/logo.png";
-import {
-  Dialog,
-  DialogPanel,
-  PopoverGroup,
-} from "@headlessui/react";
+import { Dialog, DialogPanel, PopoverGroup } from "@headlessui/react";
+import { motion } from "framer-motion";
 import {
   Bars3Icon,
   XMarkIcon,
@@ -19,7 +16,7 @@ const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-gray-100">
+    <div className="bg-gray-100">
       <nav
         aria-label="Global"
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
@@ -48,25 +45,25 @@ const Header = () => {
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
           <Link
-            href="/menu"
+            href="/"
             className="text-sm font-semibold leading-6 text-gray-900"
           >
             Cafe Menu
           </Link>
           <Link
-            href="/about"
+            href="/"
             className="text-sm font-semibold leading-6 text-gray-900"
           >
             About Us
           </Link>
           <Link
-            href="/locations"
+            href="/"
             className="text-sm font-semibold leading-6 text-gray-900"
           >
             Find Us
           </Link>
           <Link
-            href="/catering"
+            href="/"
             className="text-sm font-semibold leading-6 text-gray-900"
           >
             Alowishus Catering
@@ -74,13 +71,10 @@ const Header = () => {
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end gap-5 items-center">
           <Link
-            href="/cart"
+            href="/"
             className="text-sm font-semibold leading-6 text-white bg-black p-2 rounded-full"
           >
-            <ShoppingBagIcon
-              width={20}
-              className="hover:cursor-pointer"
-            />
+            <ShoppingBagIcon width={20} className="hover:cursor-pointer" />
           </Link>
           <Button variant="outline" className="capitalize bg-black text-white">
             Buy Gift Vouchers
@@ -116,25 +110,25 @@ const Header = () => {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
                 <Link
-                  href="/menu"
+                  href="/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Cafe Menu
                 </Link>
                 <Link
-                  href="/about"
+                  href="/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   About Us
                 </Link>
                 <Link
-                  href="/locations"
+                  href="/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Find Us
                 </Link>
                 <Link
-                  href="/catering"
+                  href="/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Alowishus Catering
@@ -142,7 +136,7 @@ const Header = () => {
               </div>
               <div className="py-6">
                 <Link
-                  href="/gift-vouchers"
+                  href="/"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Buy Gift Vouchers
@@ -152,7 +146,7 @@ const Header = () => {
           </div>
         </DialogPanel>
       </Dialog>
-    </header>
+    </div>
   );
 };
 

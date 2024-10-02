@@ -1,6 +1,7 @@
 import Banner from "@/components/Banner";
 import BestSelling from "@/components/BestSelling";
 import Explore from "@/components/Explore";
+import Instant from "@/components/Instant";
 import Order from "@/components/Order";
 import Header from "@/components/ui/Header";
 
@@ -13,6 +14,7 @@ export default function Home() {
     <Explore></Explore>
     <Order></Order>
     <BestSelling></BestSelling>
+    <Instant></Instant>
  
     </main>
   );

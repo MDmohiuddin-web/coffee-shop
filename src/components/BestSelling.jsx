@@ -12,7 +12,6 @@ import Image from "next/image";
 
 import coup from "/public/mid1.png";
 
-
 const BestSelling = () => {
   return (
     <div className="py-10">
@@ -27,19 +26,24 @@ const BestSelling = () => {
       {/* for cards */}
 
       <div className="w-4/5 mx-auto flex flex-wrap gap-5 justify-center items-center ">
-        <Card className="text-left relative w-[300px]  ">
+      
+        <Card className="text-left relative w-[305px] mx-auto mt-28  ">
           <CardHeader>
-            <Image alt="" src={coup} className="absolute -right-5 -top-20 " width={200}></Image>
-            <p className="text-sm">#sell</p>
-            <CardTitle className="text-2xl"> Double Espresso</CardTitle>
+            <Image
+              alt=""
+              src={coup}
+              className="absolute -right-12 -top-24 "
+              width={200}
+            ></Image>
+            <p className="text-sm">#1 selling </p>
+            <CardTitle className="text-2xl"> Double <br /> Espresso</CardTitle>
             <CardDescription>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam nisi vitae numquam tenetur, animi optio assumenda rem voluptates ex temporibus.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam nisi
+              vitae numquam tenetur, animi optio assumenda rem voluptates ex
+              temporibus.
             </CardDescription>
-            
           </CardHeader>
-          {/* <CardContent className="flex justify-center">
-            <Image alt="photo" src={icon1} width={150} />
-          </CardContent> */}
+
           <CardFooter className="flex justify-center gap-5">
             <Button
               variant="outline"
@@ -56,7 +60,71 @@ const BestSelling = () => {
           </CardFooter>
         </Card>
         {/* card 2 */}
-        
+        <Card className="text-left relative w-[305px] mx-auto mt-28  ">
+          <CardHeader>
+            <Image
+              alt=""
+              src={coup}
+              className="absolute -right-12 -top-24 "
+              width={200}
+            ></Image>
+            <p className="text-sm">#1 selling </p>
+            <CardTitle className="text-2xl"> Double <br /> Espresso</CardTitle>
+            <CardDescription>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam nisi
+              vitae numquam tenetur, animi optio assumenda rem voluptates ex
+              temporibus.
+            </CardDescription>
+          </CardHeader>
+
+          <CardFooter className="flex justify-center gap-5">
+            <Button
+              variant="outline"
+              className="hover:bg-black border-none shadow-none hover:text-white"
+            >
+              $ 59.99
+            </Button>
+            <Button
+              variant="outline"
+              className="capitalize bg-black text-white"
+            >
+              order new
+            </Button>
+          </CardFooter>
+        </Card>
+        {/* card 3 */}
+        <Card className="text-left relative w-[305px] mx-auto mt-28  ">
+          <CardHeader>
+            <Image
+              alt=""
+              src={coup}
+              className="absolute -right-12 -top-24 "
+              width={200}
+            ></Image>
+            <p className="text-sm">#1 selling </p>
+            <CardTitle className="text-2xl"> Double <br /> Espresso</CardTitle>
+            <CardDescription>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam nisi
+              vitae numquam tenetur, animi optio assumenda rem voluptates ex
+              temporibus.
+            </CardDescription>
+          </CardHeader>
+
+          <CardFooter className="flex justify-center gap-5">
+            <Button
+              variant="outline"
+              className="hover:bg-black border-none shadow-none hover:text-white"
+            >
+              $ 59.99
+            </Button>
+            <Button
+              variant="outline"
+              className="capitalize bg-black text-white"
+            >
+              order new
+            </Button>
+          </CardFooter>
+        </Card>
       </div>
     </div>
   );

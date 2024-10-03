@@ -9,20 +9,24 @@ import {
 import Image from "next/image";
 
 // import imgLogo from "/public/cafe.png";
-import imgHero from "/public/hero1.png";
+import imgHero from "/public/hero--.png";
+
 import { Button } from "@/components/ui/button";
 
 const Banner = () => {
   return (
     <div className="bg-gray-100">
       <div className="w-4/5 mx-auto text-center py-10 p-5">
+        <div className="md:hidden block  pb-10">
+          <Image src={imgHero} alt="" width={400}  />
+        </div>
         <Carousel>
           <CarouselContent>
             <CarouselItem className="flex justify-between gap-5">
               {/* for text */}
               <div className="md:w-1/2 text-left  ">
-                <div className="relative">
-                  <h1 className="text-3xl font-bold md:text-8xl">
+                <div className="">
+                  <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-6xl xl:text-8xl font-bold duration-500 transition-all">
                     alowishus delicious coffee
                   </h1>
                 </div>
@@ -48,15 +52,15 @@ const Banner = () => {
                 </div>
               </div>
 
-              <div className="md:w-1/2 relative">
-                <Image src={imgHero} alt="" width={400} className="" />
+              <div className="hidden md:block md:w-1/2 ">
+                <Image src={imgHero} alt="" width={400} />
               </div>
             </CarouselItem>
             <CarouselItem className="flex justify-between gap-5">
               {/* for text */}
               <div className="md:w-1/2 text-left  ">
-                <div className="relative">
-                  <h1 className="text-3xl font-bold md:text-8xl">
+                <div className="">
+                  <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-6xl xl:text-8xl font-bold duration-500 transition-all">
                     alowishus delicious coffee
                   </h1>
                 </div>
@@ -82,15 +86,15 @@ const Banner = () => {
                 </div>
               </div>
 
-              <div className="md:w-1/2 relative">
-                <Image src={imgHero} alt="" width={400} className="" />
+              <div className="hidden md:block md:w-1/2 ">
+                <Image src={imgHero} alt="" width={400} />
               </div>
             </CarouselItem>
             <CarouselItem className="flex justify-between gap-5">
               {/* for text */}
               <div className="md:w-1/2 text-left  ">
-                <div className="relative">
-                  <h1 className="text-3xl font-bold md:text-8xl">
+                <div className="">
+                  <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-6xl xl:text-8xl font-bold duration-500 transition-all">
                     alowishus delicious coffee
                   </h1>
                 </div>
@@ -116,8 +120,8 @@ const Banner = () => {
                 </div>
               </div>
 
-              <div className="md:w-1/2 relative">
-                <Image src={imgHero} alt="" width={400} className="" />
+              <div className="hidden md:block md:w-1/2 ">
+                <Image src={imgHero} alt="" width={400} />
               </div>
             </CarouselItem>
           </CarouselContent>

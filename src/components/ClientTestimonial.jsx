@@ -55,15 +55,15 @@ const people = [
 
 const ClientTestimonial = () => {
   return (
-    <div className="md:w-[30%] mx-auto my-5 text-center py-5">
-      <h2 className="text-2xl font-bold">Best Selling Coffee</h2>
+    <div className="md:w-[35%] sm:w-4/5  mx-auto my-5 text-center py-5">
+      <h2 className="text-xl sm:text-2xl md:text-4xl  font-bold duration-500 transition-all">Best Selling Coffee</h2>
       <p className="py-2 text-sm">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam facere
         adipisci voluptatibus Lorem ipsum dolor
       </p>
 
-      <div className="flex py-5">
-        <div className="flex -space-x-4 rtl:space-x-reverse w-[48%] border-r-2 border-black">
+      <div className="flex py-5 justify-between items-center ">
+        <div className="flex -space-x-4 rtl:space-x-reverse w-[49%] p-2">
           <TooltipProvider delayDuration={100}>
             {people.map(({ id, name, designation, image }) => (
               <Tooltip key={id}>
@@ -84,8 +84,9 @@ const ClientTestimonial = () => {
             ))}
           </TooltipProvider>
         </div>
-        <div className="text-left pl-7">
-          <h2 className="font-bold text-2xl flex justify-center items-center">
+        <hr className="border-2 border-black h-10" />
+        <div className="text-left  md:pl-12 ">
+          <h2 className="font-bold text-2xl flex  items-center">
             4.6
             <svg
               class="w-4 h-4 text-yellow-300 ms-1"

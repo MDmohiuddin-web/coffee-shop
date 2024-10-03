@@ -10,7 +10,7 @@ const Order = () => {
         <Image alt="f" src={coffeeImg} width={500} height={500}></Image>
       </div>
       <div className="md:w-[48%]  text-left space-y-3  flex justify-center  flex-col  ">
-        <h2 className="text-2xl md:text-7xl">Order Your Favorite Coffee</h2>
+        <h2 className="text-xl sm:text-2xl md:text-4xl lg:text-6xl xl:text-8xl font-bold duration-500 transition-all">Order Your Favorite Coffee</h2>
         <p className="">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
           asperiores aliquid tempore tenetur? Quibusdam non fugit aliquam

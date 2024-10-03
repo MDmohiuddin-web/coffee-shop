@@ -1,13 +1,13 @@
 import Image from "next/image";
 import React from "react";
 import { Button } from "./ui/button";
-import coffeeImg from "/public/coffee-banner.png";
+import coffeeImg from "/public/coffee-banner-3.png";
 
 const Instant = () => {
   return (<div className="bg-gray-100">
-    <div className="w-4/5 mx-auto flex flex-wrap justify-around gap-5 py-20 md:h-[650px]">
+    <div className="w-4/5 mx-auto flex flex-wrap justify-around gap-5 py-10 md:py-20 md:h-[650px] ">
       <div className="md:w-[48%] text-left space-y-3 flex justify-center flex-col mx-auto">
-        <h2 className="text-2xl md:text-6xl font-bold">
+        <h2 className="text-xl sm:text-2xl md:text-4xl lg:text-6xl xl:text-8xl font-bold duration-500 transition-all">
           Instant Coffee At Your Home
         </h2>
         <p>
@@ -24,21 +24,8 @@ const Instant = () => {
           </Button>
         </div>
       </div>
-      <div className="md:w-[48%] flex items-center justify-center relative mx-auto">
-        <Image
-          alt="Coffee image 1"
-          src={coffeeImg}
-          width={200}
-          height={200}
-          className="absolute -rotate-[15deg] -translate-x-8 right-[200px] rounded-2xl"
-        />
-        <Image
-          alt="Coffee image 2"
-          src={coffeeImg}
-          width={200}
-          height={200}
-          className="absolute rounded-xl"
-        />
+      <div className="md:w-[48%] items-center">
+        <Image alt="f" src={coffeeImg} width={500} height={500} className="text-center"></Image>
       </div>
     </div></div>
   );

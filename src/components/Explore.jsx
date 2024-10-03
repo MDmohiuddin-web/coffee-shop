@@ -17,7 +17,7 @@ const Explore = () => {
   return (
     <div className="py-10 ">
       <div className="md:w-1/2 mx-auto my-5 text-center ">
-        <h2 className="text-2xl md:text-6xl font-bold">
+        <h2 className="text-xl sm:text-2xl md:text-4xl lg:text-6xl xl:text-8xl font-bold duration-500 transition-all">
           explore our alowishus
         </h2>
         <p className="py-2 text-sm">

@@ -1,7 +1,7 @@
 import React from "react";
 import {
   Card,
-  CardContent,
+
   CardDescription,
   CardFooter,
   CardHeader,
@@ -14,8 +14,8 @@ import coup from "/public/mid1.png";
 
 const BestSelling = () => {
   return (
-    <div className="py-10">
-      <div className="md:w-1/2 mx-auto my-5 text-center ">
+    <div className="py-10 ">
+      <div className="md:w-1/2  mx-auto my-5 text-center ">
         <h2 className="text-2xl md:text-6xl font-bold">Best Selling Coffee</h2>
         <p className="py-2 text-sm">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam
@@ -25,9 +25,9 @@ const BestSelling = () => {
       </div>
       {/* for cards */}
 
-      <div className="w-4/5 mx-auto flex flex-wrap gap-5 justify-center items-center ">
+      <div className="w-4/5 lg:w-4/5 mx-auto flex flex-wrap gap-5 justify-center items-center ">
       
-        <Card className="text-left relative w-[305px] mx-auto mt-28  ">
+        <Card className="text-left relative w-[305px]  mx-auto mt-28  ">
           <CardHeader>
             <Image
               alt=""
@@ -60,7 +60,7 @@ const BestSelling = () => {
           </CardFooter>
         </Card>
         {/* card 2 */}
-        <Card className="text-left relative w-[305px] mx-auto mt-28  ">
+        <Card className="text-left relative w-[305px]  mx-auto mt-28  ">
           <CardHeader>
             <Image
               alt=""
@@ -93,7 +93,7 @@ const BestSelling = () => {
           </CardFooter>
         </Card>
         {/* card 3 */}
-        <Card className="text-left relative w-[305px] mx-auto mt-28  ">
+        <Card className="text-left relative w-[305px]  mx-auto mt-28  ">
           <CardHeader>
             <Image
               alt=""

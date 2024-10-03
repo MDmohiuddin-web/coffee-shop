@@ -13,7 +13,12 @@ const Review = () => {
         <div className="">
           <div className="md:flex-shrink-0">
             <div className="h-60 w-full   bg-gray-300">
-              <Image alt="Reviewer" src={girl} className="w-full h-full" />
+              <Image
+                alt="Reviewer"
+                loading="lazy"
+                src={girl}
+                className="w-full h-full"
+              />
             </div>
           </div>
           <div className="p-5 ">
@@ -51,7 +56,12 @@ const Review = () => {
         <div className="">
           <div className="md:flex-shrink-0">
             <div className="h-60 w-full   bg-gray-300">
-              <Image alt="Reviewer" src={gir2} className="w-full h-full" />
+              <Image
+                alt="Reviewer"
+                loading="lazy"
+                src={gir2}
+                className="w-full h-full"
+              />
             </div>
           </div>
           <div className="p-5 ">
@@ -89,7 +99,12 @@ const Review = () => {
         <div className="">
           <div className="md:flex-shrink-0">
             <div className="h-60 w-full   bg-gray-300">
-              <Image alt="Reviewer" src={man} className="w-full h-full" />
+              <Image
+                alt="Reviewer"
+                loading="lazy"
+                src={man}
+                className="w-full h-full"
+              />
             </div>
           </div>
           <div className="p-5 ">

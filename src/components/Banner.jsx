@@ -18,7 +18,7 @@ const Banner = () => {
     <div className="bg-gray-100">
       <div className="w-4/5 mx-auto text-center py-10 p-5">
         <div className="md:hidden block  pb-10">
-          <Image src={imgHero} alt="" width={400}  />
+          <Image src={imgHero} alt="" width={400} loading="lazy" />
         </div>
         <Carousel>
           <CarouselContent>
@@ -53,7 +53,7 @@ const Banner = () => {
               </div>
 
               <div className="hidden md:block md:w-1/2 ">
-                <Image src={imgHero} alt="" width={400} />
+                <Image src={imgHero} alt="" width={400} loading="lazy"/>
               </div>
             </CarouselItem>
             <CarouselItem className="flex justify-between gap-5">
@@ -87,7 +87,7 @@ const Banner = () => {
               </div>
 
               <div className="hidden md:block md:w-1/2 ">
-                <Image src={imgHero} alt="" width={400} />
+                <Image src={imgHero} alt="" loading="lazy" width={400} />
               </div>
             </CarouselItem>
             <CarouselItem className="flex justify-between gap-5">
@@ -121,7 +121,7 @@ const Banner = () => {
               </div>
 
               <div className="hidden md:block md:w-1/2 ">
-                <Image src={imgHero} alt="" width={400} />
+                <Image src={imgHero} alt="" width={400} loading="lazy"/>
               </div>
             </CarouselItem>
           </CarouselContent>

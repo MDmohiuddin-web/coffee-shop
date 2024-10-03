@@ -31,6 +31,7 @@ const BestSelling = () => {
           <CardHeader>
             <Image
               alt=""
+              loading="lazy"
               src={coup}
               className="absolute -right-12 -top-24 "
               width={200}
@@ -64,6 +65,7 @@ const BestSelling = () => {
           <CardHeader>
             <Image
               alt=""
+              loading="lazy"
               src={coup}
               className="absolute -right-12 -top-24 "
               width={200}
@@ -96,6 +98,7 @@ const BestSelling = () => {
         <Card className="text-left relative w-[305px]  mx-auto mt-28  ">
           <CardHeader>
             <Image
+            loading="lazy"
               alt=""
               src={coup}
               className="absolute -right-12 -top-24 "

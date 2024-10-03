@@ -69,6 +69,7 @@ const ClientTestimonial = () => {
               <Tooltip key={id}>
                 <TooltipTrigger>
                   <Image
+                  loading="lazy"
                     className="w-11 h-11 border-2 border-white rounded-full dark:border-gray-800"
                     src={image}
                     alt={name}

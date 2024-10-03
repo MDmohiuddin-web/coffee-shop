@@ -25,7 +25,7 @@ const Instant = () => {
         </div>
       </div>
       <div className="md:w-[48%] items-center">
-        <Image alt="f" src={coffeeImg} width={500} height={500} className="text-center"></Image>
+        <Image alt="f" loading="lazy" src={coffeeImg} width={500} height={500} className="text-center"></Image>
       </div>
     </div></div>
   );

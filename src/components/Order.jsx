@@ -7,7 +7,7 @@ const Order = () => {
   return (<div className="bg-gray-100">
     <div className="w-4/5 mx-auto  flex-wrap gap-5 flex justify-around py-10">
       <div className="md:w-[48%] items-center">
-        <Image alt="f" src={coffeeImg} width={500} height={500}></Image>
+        <Image alt="f" loading="lazy" src={coffeeImg} width={500} height={500}></Image>
       </div>
       <div className="md:w-[48%]  text-left space-y-3  flex justify-center  flex-col  ">
         <h2 className="text-xl sm:text-2xl md:text-4xl lg:text-6xl xl:text-8xl font-bold duration-500 transition-all">Order Your Favorite Coffee</h2>

@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import logo from "/public/logo.png";
 import { Dialog, DialogPanel, PopoverGroup } from "@headlessui/react";
-import { motion } from "framer-motion";
+
 import {
   Bars3Icon,
   XMarkIcon,
@@ -29,6 +29,7 @@ const Header = () => {
               width={80}
               alt="Alowishus Delicious Logo"
               src={logo}
+              loading="lazy"
               className="h-8 w-auto"
             />
           </Link>
@@ -46,25 +47,26 @@ const Header = () => {
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
           <Link
             href="/"
-            className="text-sm font-semibold leading-6 text-gray-900"
+            className="text-sm font-semibold leading-6 text-gray-900 hover:bg-black hover:text-white p-2 rounded-md transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-md"
+            aria-current="page"
           >
             Cafe Menu
           </Link>
           <Link
             href="/"
-            className="text-sm font-semibold leading-6 text-gray-900"
+            className="text-sm font-semibold leading-6 text-gray-900 hover:bg-black hover:text-white p-2 rounded-md transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-md"
           >
             About Us
           </Link>
           <Link
             href="/"
-            className="text-sm font-semibold leading-6 text-gray-900"
+            className="text-sm font-semibold leading-6 text-gray-900 hover:bg-black hover:text-white p-2 rounded-md transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-md"
           >
             Find Us
           </Link>
           <Link
             href="/"
-            className="text-sm font-semibold leading-6 text-gray-900"
+            className="text-sm font-semibold leading-6 text-gray-900 hover:bg-black hover:text-white p-2 rounded-md transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-md"
           >
             Alowishus Catering
           </Link>
@@ -94,6 +96,7 @@ const Header = () => {
               <Image
                 alt="Alowishus Delicious Logo"
                 src={logo}
+                loading="lazy"
                 className="h-8 w-auto"
               />
             </Link>
@@ -111,25 +114,25 @@ const Header = () => {
               <div className="space-y-2 py-6">
                 <Link
                   href="/"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  className="block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 transition-colors duration-300"
                 >
                   Cafe Menu
                 </Link>
                 <Link
                   href="/"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  className="block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 transition-colors duration-300"
                 >
                   About Us
                 </Link>
                 <Link
                   href="/"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  className="block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 transition-colors duration-300"
                 >
                   Find Us
                 </Link>
                 <Link
                   href="/"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  className="block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 transition-colors duration-300"
                 >
                   Alowishus Catering
                 </Link>

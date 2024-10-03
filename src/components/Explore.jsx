@@ -36,7 +36,7 @@ const Explore = () => {
             </CardDescription>
           </CardHeader>
           <CardContent className="flex justify-center">
-            <Image alt="photo" src={icon1} width={150} />
+            <Image alt="photo" loading="lazy" src={icon1} width={150} />
           </CardContent>
           <CardFooter className="flex justify-center">
             <Button
@@ -56,7 +56,7 @@ const Explore = () => {
             </CardDescription>
           </CardHeader>
           <CardContent className="flex justify-center">
-            <Image alt="photo" src={icon2} width={150} />
+            <Image alt="photo" loading="lazy" src={icon2} width={150} />
           </CardContent>
           <CardFooter className="flex justify-center">
             <Button
@@ -76,7 +76,7 @@ const Explore = () => {
             </CardDescription>
           </CardHeader>
           <CardContent className="flex justify-center">
-            <Image alt="photo" src={icon3} width={150} className="" />
+            <Image alt="photo" loading="lazy" src={icon3} width={150} className="" />
           </CardContent>
           <CardFooter className="flex justify-center">
             <Button
